@@ -13,7 +13,7 @@ def mergesort(lst):
 
 #Joins the two halves using mergesort algorithm
     comb = []
-    i, j, k = 0, 0, 0
+    i, j = 0, 0
     while i < len(top) and j < len(bottom):
         if top[i] < bottom[j]:
             comb.append(top[i])
