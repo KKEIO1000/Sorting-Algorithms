@@ -7,7 +7,7 @@ def insertion_sort(lst):
         key = lst[i]
         j = i-1
 
-#Swap leftward until seeing a bigger number
+#Swap leftward until seeing a smaller number
         while j>=0 and lst[j] > key:
             lst[j+1] = lst[j]
             j -= 1
